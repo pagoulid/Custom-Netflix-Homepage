@@ -1,0 +1,593 @@
+
+/*change*/
+   html{
+	width:1280px;
+	height:1610px;
+	}
+	body{
+	
+	background-color:grey;
+	width:1280px;
+	height:1610px;
+	margin:0px;
+	}
+    /*change*/
+    main{/*change*/
+        
+        background-image: url(background.jpg);
+        background-repeat: no-repeat;
+        background-attachment: scroll;
+        background-size: 100% 92%; /*reduce image shape only vertically to add sections bckrnd's*/
+        height:605px;/*default:486*/
+        width:100%;/*default:1285*/
+        margin:5px;
+    }
+
+    /*Sign button*/
+    main #Sign{/*Set sign in button*/
+        position:absolute;
+        left:1150px;
+        top:30px;
+        height:30px;
+        width:80px;
+        /*color: white;*/
+        background-color: red;
+        border-radius: 5px;
+        border:red;
+
+           
+    }
+
+    main #Sign div{
+        color: white;
+        font-size: medium;
+
+    }
+
+
+    /*Sign button*/
+    /*languange selector*/
+    main #lang{
+        
+        
+        position:absolute;
+        left:1000px;
+        top:30px;
+        
+
+    }
+
+    .field .Language .selector{
+        display:block;
+        height:30px;
+        width:80px;
+
+
+    }
+
+    
+    /*languange selector*/
+
+    
+
+    /*Logo*/
+    main div #logo{ /*adjusting logo to background*/
+        display: inline-block;
+        width:200px;
+        height:100px;
+        position: absolute;
+        left: 40px; right:561; top: -10; bottom:1198;
+        
+    }
+    /*Logo*/
+
+    /*Main  Text*/
+    main #main_par{ /*Positioning the main text*/
+        color: white;
+        font-size: larger;
+        display:inline-block;
+        position:absolute;
+        left:430px;
+        top:200px;
+        
+
+
+    }
+
+    /*need to fix better the alignment*/
+    main #main_par h1{ /*aligning the two main paragraphs*/
+        margin-top: 0px;
+        margin-bottom: 5px;
+        font-weight: 600;
+    }
+
+    main #main_par h1:first-child{
+        width:400px;
+        height:40px;
+    }
+    main #main_par h1:last-child{
+        text-align: center;
+        
+    }
+
+
+
+    /*Main Text*/
+    /*sub Text*/
+    main #sub_par h2{ /*Positioning the sub text*/
+        color: white;
+        font-size: x-large;
+        font-weight: 500;
+        position:absolute;
+        left:430px;
+        top:280px;
+        text-align: center;
+        padding-left: 40px;
+        
+       
+        
+
+
+    }
+
+    main #sub_par h3{ /*Positioning the sub text*/
+        color: white;
+        font-size: medium;
+        font-weight: 500;
+        position:absolute;
+        left:430px;
+        top:350px;
+        
+
+
+    }
+
+    /*sub Text*/
+    /*FORM*/
+
+
+    main form{
+
+        display: inline-block;
+        position:absolute;
+        left:400px;
+        top:400px;
+        height:20px;
+        
+    }
+
+    main form #Email-Address{
+            height:50px;/*default height 15*/
+            width:500px;
+            border: whitesmoke;
+    }
+
+    main form #button{
+        height:50px;/*default height 15*/
+        width:160px;
+        color: white;
+        background-color: red;
+        border: red;
+        font-size: medium;
+        font-weight: bold;
+    }
+   
+    /*FORM*/
+    /*Section 1*/
+    #Section1{
+        background-color: black;
+        position:absolute;
+        top: 565px;
+        width:1285px;/*change*/
+        height:500px;
+        
+    }
+    /*Section 1*/
+    /*Group alignment in section1,section3*/
+    .section-group h1{
+        color:white;
+        font-weight: bold;
+        font-size:3em;
+        padding-left: 3em;
+    }
+    .section-group .section-text{
+        color:white;
+        font-size: x-large;
+        padding-left: 6em;
+    }
+    /*Group alignment in sections*/
+
+   
+    
+    /*Section 2*/
+    #Section2{
+        background-color: black;
+        position:absolute;
+        top: 1070px;
+        width:1285px;/*change*/
+        height:500px;
+        
+    }
+
+    #Section2 h1,#text2{
+
+        
+        position:relative;
+        left:400px;
+        top:100px;
+        width:500px;
+    }
+    /*Img Section*/
+    #Section2 #Img2{
+        
+        position:relative;
+        bottom:20em;
+        left:0em;
+        
+    }
+    #Section2 #Img2 img{
+        width:400px;
+        height:400px;
+    }
+
+    #Section2 #Img2>div{
+        position:relative;
+        left:5em;
+        bottom:8em;
+        width:20%;
+        height:70px;
+        border: 5px solid gray;
+        border-radius: 5px;
+        background-color: black;
+           
+    }
+
+    #Section2 #Img2>div h4{
+        display: inline-block;
+        color:white;
+        font-size: bold;
+        padding-left: 2em;
+        margin-top: 0px;
+        margin-bottom: 0px;
+        position:relative;
+        bottom:20px;
+           
+    }
+    #Section2 #Img2>div p{
+        display: inline-block;
+        color:blue;
+        font-size: 12px;
+        padding-left: 7em;
+        position:relative;
+        bottom:3em;
+        
+           
+    }
+
+
+
+   #Section2 #Img2>div img{
+        width:15%;
+        height:80%;
+        position:relative;
+        top:0.5em;
+        left:0.5em;
+        /*display:none;*/
+        
+           
+    }
+    /*Animation test*/
+    
+
+    #Section2 #Img2>div>div canvas{
+        width: 50px;
+        height: 50px;
+        position:relative;
+        bottom:5em;
+        left:12.5em;
+        
+    }
+
+    #Section2 #Img2>div>div img{
+        position:relative;
+
+        left:0;
+        -webkit-transition: opacity 1s ease-in-out;
+        -moz-transition: opacity 1s ease-in-out;
+        -o-transition: opacity 1s ease-in-out;
+        transition: opacity 1s ease-in-out;   
+    }
+
+   
+    #Section2 #Img2>div>div img.s:hover{
+        opacity:0;
+    }
+    
+    #Section2 #Img2>div>div #f{
+        position:relative;
+        
+        width:50px;
+        height:50px;
+        top:-5em;
+        left:9em;
+        
+        /*left:0.2em;*/
+    }
+
+    #Section2 #Img2>div>div #s{
+        position:relative;
+        top:-5em;
+        left:5.7em;
+        width:50px;
+        height:50px;
+        
+        
+    }
+   /* #Section2 #Img2>div>div img{
+        position:relative;
+        bottom:20em;
+    }*/
+
+
+    #Section2 #Img2>div>div img.f:hover{
+        opacity:0;
+    }
+
+    @keyframes Anime {
+        0% {
+            opacity:1;
+          }
+          17% {
+            opacity:0;
+          }
+          25% {
+            opacity:0;
+          }
+          92% {
+            opacity:0;
+          }
+          100% {
+            opacity:0;
+          }
+      }
+
+      @keyframes Anime1 {
+        0% {
+            opacity:1;
+          }
+          17% {
+            opacity:0;
+          }
+          25% {
+            opacity:0;
+          }
+          92% {
+            opacity:0;
+          }
+          100% {
+            opacity:1;
+          }
+      }
+      
+      #Section2 #Img2>div>div img.s { /*DOWNLOAD button*/
+      animation-name: Anime;
+      animation-timing-function: ease-in-out;
+      animation-iteration-count: infinite;
+      animation-duration: 17s;
+      animation-direction:normal;
+      }
+      #Section2 #Img2>div>div img.f { /*checkbox button button*/
+        animation-name: Anime1;
+        animation-timing-function: ease-in-out;
+        animation-iteration-count: infinite;
+        animation-duration: 17s;
+        animation-direction:normal;
+        }
+
+     /* #Section2 #Img2>div>div img:nth-of-type(1){
+          animation-delay:4s;
+      }
+
+      #Section2 #Img2>div>div img:nth-of-type(2){
+        animation-delay:8s;
+    }*/
+
+    
+
+
+
+
+
+
+
+
+
+    /*Animation test*/
+
+    /*Img Section*/
+    /*Section 2*/
+
+
+
+
+
+
+    #Section3{
+        background-color: black;
+        position:absolute;
+        top: 1575px;
+        width:1285px;
+        height:500px;
+        
+    }
+
+    /*Section 4*/
+    
+    #Section4{ /*Idea: section4 flex container with list elements flex items*/
+        background-color: black;
+        position:absolute;
+        top: 2080px;
+        width:1285px;
+        height:500px;
+
+        
+    }
+
+
+    #Section4 h1{
+        color: white;
+        font-size: 3em;
+        text-align: center;
+        margin-bottom: 5px;
+
+    }
+
+    #Section4>div h3{/*>div change*/
+        color: white;
+        font-size: 1em;
+        text-align: center;
+        position:relative;
+        top:50px;
+
+    }
+
+    #Section4 ul li input[type=button]{
+        color: white;
+        background-color: grey;
+        font-size: 2em;
+        line-height:35px ;
+        text-align: left;
+        text-indent: 25px;
+        box-sizing: border-box;
+        height:40px;/*default height 15*/
+        width:700px;/*default width 168.172*/
+    }
+
+    #Section4 ul {
+        margin:0px;
+        
+        list-style-type: none;
+        color:grey;
+        
+        flex-direction: column;
+        flex-flow: column wrap;
+        padding-left: 22em;
+        justify-content:space-around;
+        align-content:space-around;
+    }
+    #Section4 ul .toggle{ /* use toggle class to hide all the specific elements*/
+        display:none;
+        color: white;
+        background-color: grey;
+        width:655;
+        height:inherit;
+        padding-left: 45px;
+        
+    }
+    /*Form*/
+    #Section4>div form{ /*>div change */
+
+        /*display: inline-block;*/
+        position:absolute;
+        left:380px;
+        top:400px;
+        height:48px;
+        
+
+    }
+
+
+    #Section4>div form #Email-Address{
+        height:50px;/*default height 15*/
+        width:500px;
+        border: whitesmoke;
+    }
+
+    #Section4>div form #button{
+        height:50px;/*default height 15*/
+        width:160px;
+        color: white;
+        background-color: red;
+        border: red;
+        font-size: medium;
+        font-weight: bold;
+    }
+
+    #Section4>div{
+        height:150px;/*18*/
+
+
+    }
+    /*Form*/
+
+    /*Section 4*/
+
+    /*Section1,3 TV and video*/
+    #tv1{
+        position:relative;
+        top:-17em;
+        left:10em;
+    }
+
+    #tv3{
+        position:relative;
+        top:-18em;/*17*/
+        left:16em;
+    }
+
+  /*  video{
+        
+        position:relative;
+        top:-30em;
+
+    }*/
+    #video1{
+        position:relative;
+        left:44.5em;
+        top:-25em;
+    }
+    #video3{
+        position:relative;
+        left:48em;
+        top:-30em;
+    }
+    /*Section1,3 TV*/
+
+
+
+    footer{
+        background-color: grey;
+        position:absolute;
+        top: 2585px;
+        width:1285px;
+        height:380px;
+        
+    }
+
+    footer ul li{
+        list-style: none;
+        padding-bottom: 10px;
+    }
+    footer ul{
+        display: inline-block;
+        vertical-align: top;
+        padding-left: 7em;
+        
+    }
+
+    footer #footlang{
+
+        padding-left: 8em;
+    }
+
+    footer h5{
+
+        padding-left: 10em;
+    }
+    footer h3{
+
+        padding-left: 6em;
+    }
+
+
+

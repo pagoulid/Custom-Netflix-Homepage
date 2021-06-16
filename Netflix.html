@@ -1,0 +1,432 @@
+<html>
+
+    <head>
+
+        <meta charset="utf-8">
+        <title>Gouflix</title>
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <meta name="description" content="Gouflix">
+        <meta name="Gouligator" content="Best Alternative Netflix">
+        
+        <link rel="stylesheet" type="text/css" href="homepage.css" media="all">
+
+        <!--Section4-> listbuttons-->
+        <!--myfunctionX() combines respective button with myDIVX block content-->
+        <!--When onclick show/hide respective content-->
+        <!--Grow/shrink section and hide other shown content(if any)-->
+        <script  src="node_modules/jquery/dist/jquery.min.js"></script>
+        <script src="resize.js"></script>
+
+        
+        <script>
+          function myFunction() {
+            var x = document.getElementById("myDIV");
+            let y = document.getElementById("myDIV1");
+            let z = document.getElementById("myDIV2");
+            let d = document.getElementById("myDIV3");
+            let f = document.getElementById("myDIV4");
+            let table =[y,z,d,f];
+            if (x.style.display == "none") {
+              x.style.display = "block";/*when block is shown resize window*/
+              createBox('Section4',2080,0,1285,1000,3085,0,1285,300,900,380,664,48,
+              380,0,1285,18);
+              for(let el of table){
+                if (el.style.display!="none"){/*if other tab open close it*/
+                  el.style.display="none";
+                }
+
+              }
+            } 
+            else {
+              x.style.display = "none";/*else shrink it again to its default size*/
+              createBox('Section4',2080,0,1285,500,2585,0,1285,300,400,380,664,48,
+              50,0,1285,18);
+            }
+          }
+       </script>
+
+
+
+
+
+
+    <script>
+      function myFunction1() {
+        var x = document.getElementById("myDIV1");
+        let y = document.getElementById("myDIV");
+        let z = document.getElementById("myDIV2");
+        let d = document.getElementById("myDIV3");
+        let f = document.getElementById("myDIV4");
+        let table =[y,z,d,f];
+        if (x.style.display === "none") {
+            x.style.display = "block";
+            createBox('Section4',2080,0,1285,1000,3085,0,1285,300,900,380,664,48,
+              450,0,1285,18);
+          for(let el of table){
+            if (el.style.display!="none"){/*if other tab open close it*/
+              el.style.display="none";
+            }
+
+          }
+        } 
+        else {
+          x.style.display = "none";
+          createBox('Section4',2080,0,1285,500,2585,0,1285,300,400,380,664,48,
+          50,0,1285,18);
+        }
+      }
+    </script>
+
+
+
+
+    <script>
+      function myFunction2() {
+        var x = document.getElementById("myDIV2");
+        let y = document.getElementById("myDIV");
+        let z = document.getElementById("myDIV1");
+        let d = document.getElementById("myDIV3");
+        let f = document.getElementById("myDIV4");
+        let table =[y,z,d,f];
+        if (x.style.display === "none") {
+          x.style.display = "block";
+          createBox('Section4',2080,0,1285,1000,3085,0,1285,300,900,380,664,48,
+          320,0,1285,18);
+          for(let el of table){
+            if (el.style.display!="none"){/*if other tab open close it*/
+              el.style.display="none";
+            }
+          }
+        } 
+        else {
+          x.style.display = "none";
+          createBox('Section4',2080,0,1285,500,2585,0,1285,300,400,380,664,48,
+          50,0,1285,18);
+        }
+      }
+    </script>
+
+
+    <script>
+      function myFunction3() {
+        var x = document.getElementById("myDIV3");
+        let y = document.getElementById("myDIV");
+        let z = document.getElementById("myDIV1");
+        let d = document.getElementById("myDIV2");
+        let f = document.getElementById("myDIV4");
+        let table =[y,z,d,f];
+        if (x.style.display === "none") {
+          x.style.display = "block";
+          createBox('Section4',2080,0,1285,1000,3085,0,1285,300,900,380,664,48,
+          440,0,1285,18);
+          for(let el of table){
+            if (el.style.display!="none"){/*if other tab open close it*/
+              el.style.display="none";
+            }
+          }
+        } 
+        else {
+          x.style.display = "none";
+          createBox('Section4',2080,0,1285,500,2585,0,1285,300,400,380,664,48,
+          50,0,1285,18);
+        }
+      }
+    </script>
+
+    <script>
+      function myFunction4() {
+        var x = document.getElementById("myDIV4");
+        let y = document.getElementById("myDIV");
+        let z = document.getElementById("myDIV1");
+        let d = document.getElementById("myDIV2");
+        let f = document.getElementById("myDIV3");
+        let table =[y,z,d,f];
+        if (x.style.display === "none") {
+          x.style.display = "block";
+          createBox('Section4',2080,0,1285,1000,3085,0,1285,300,900,380,664,48,
+          490,0,1285,18);
+          for(let el of table){
+            if (el.style.display!="none"){/*if other tab open close it*/
+              el.style.display="none";
+            }
+          }
+        } 
+        else {
+          x.style.display = "none";
+          createBox('Section4',2080,0,1285,500,2585,0,1285,300,400,380,664,48,
+          50,0,1285,18);
+        }
+      } 
+    </script>
+
+    <script>
+      var c = window;
+      c.resizeTo(200,200);
+    </script>
+
+    </head>
+
+
+
+    <body>
+        <main class="field">
+
+       
+            <!--<img class="bckrnd-img" src="background.jpg">-->
+            <div>
+                <img id="logo" src="https://assets.stickpng.com/images/580b57fcd9996e24bc43c529.png" alt="logo_img">
+            </div>
+            <button id = "Sign" type="button"><div>Sign in</div></button>
+
+            <div id = "lang" class="Language">
+
+                <select name="languange-selector" id="languange-selector" class="selector">
+                    <option value="English">English</option>
+                    <option value = "Greek">Greek</option>
+                </select>
+            </div>
+
+            <div id="main_par">
+                <h1>Unlimited  movies,TV</h1>
+                <h1>shows   and   more.</h1>
+            </div>
+
+            <div id="sub_par">
+                <h2>Watch anywhere,cancel anytime</h2>
+                <h3>Ready to watch?Enter your email to create or restart your membership</h3>
+            </div>
+
+            <form>
+
+                <input type="text" id="Email-Address" name="Email Address" placeholder="Email Address">
+                <input type="submit" id="button" value="Get Started >">
+            </form>
+
+        </main>
+
+
+
+       <section id = "Section1" class="section-group">
+            <h1>Enjoy on your TV</h1>
+            <div id="text1" class="section-text">
+                <p>Watch on smart TV's,Playstation, Xbox,</p>
+                <p>Chromecast,AppleTV,Blu-ray players,and</p>
+                <p>more.</p>
+            </div>
+
+            
+            <video id="video1" src="Section1-video-tv.mp4" width="465" height="250" autoplay playsinline muted  loop>
+            
+            </video>
+            <img src="Section1-tv.png" id="tv1" class="tv"/>
+
+        </section>
+
+        <section id = "Section2" class="section-group"> 
+          <h1>Download your shows</h1> 
+            <h1>to watch offline</h1>
+            <div id="text2" class="section-text">
+                <p>Save your favorites easily  and always have something to</p>
+                <p>watch.</p>
+            </div>
+
+            <div id="Img2" class="Images">
+              <img src="Section2-img.jpg">
+              <div>
+                <img src="Section2-sub.png">
+                <h4>Stranger Things</h4>
+                <p>Downloading...</p>
+
+                <!--Animation test-->
+                <div>
+                  <canvas id="canvas" width="50" height="50" style="background:#F7F7F7;"></canvas>
+                  <img src="checkbox.png" id ="f" class="f"/>
+                  <img src="download.png"  id="s" class="s"/>
+                  <!--<img src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fdeveloppaper.com%2Fusing-canvas-to-realize-circular-progress-bar%2F&psig=AOvVaw04nf7241VwVeqUgwtz_plY&ust=1618733741992000&source=images&cd=vfe&ved=2ahUKEwjlmdie64TwAhVjhf0HHREhCr4QjRx6BAgAEAc" class="t"/>-->
+                  
+                  
+                  
+                  <script src="canvas.js"></script><!--Animation test progress circle in section 2-->
+                  <!--<img src="progress.jpeg" class="t"/>-->
+                  
+                </div>
+                  
+                </div>
+            </div>
+
+        
+        </section>
+
+        <section id = "Section3" class="section-group">
+            <h1>Watch Everywhere</h1>
+            <div id="text3" class="section-text">
+                <p>Stream Unlimited movies and TV shows on</p>
+                <p>your phone,tablet,laptop,and TV without</p>
+                <p>paying more.</p>
+            </div>
+            
+            
+            <video id="video3" src= "Section3-video-tv.webm" width="380" height="220" autoplay playsinline muted loop>
+              
+              
+            
+              
+          </video>
+          <img src="Section3-tv.png" id="tv3" class="tv"/>
+        
+
+        
+        </section>
+
+
+
+        
+        
+        <section id = "Section4">
+            <h1>Frequently Asked Questions</h1>
+            <!--Using divs and scripts in list button to toggle specific content-->
+            <ul>
+
+
+              <li><input type="button" onclick="myFunction()" value="What is Netflix?"></li> 
+              <!--calling resize.js for createboc function-->
+              <!--calling jquery libraries for $ in scripts-->
+              
+              
+
+
+              <div id="myDIV" class="toggle">
+
+                    <p>Netflix is a streaming service that offers a wide variety of<br> 
+                        award-winning TV shows, movies, anime, documentaries, and <br>more 
+                        on thousands of internet-connected devices.</p>
+
+                    <p>You can watch as much as you want<br>, whenever
+                        you want without a single commercial – all
+                        for one low monthly price.<br> There's always
+                        something new to discover and new TV shows<br> and 
+                        movies are added every week!</p>
+
+
+              </div>
+              
+              
+
+
+            
+
+            
+            
+
+              <li><input type="button" onclick="myFunction1()" value="How much does Netflix cost?"></li>
+
+              <div id="myDIV1" class="toggle">
+
+                <p>Watch Netflix on your smartphone, tablet, Smart TV, laptop, or <br>streaming 
+                    device, all for one fixed monthly fee. Plans range<br> from EUR7.99 to 
+                    EUR13.99 a month. No extra costs, no<br> contracts.</p>
+              </div>
+
+              
+
+              <li><input type="button" onclick="myFunction2()" value="Where can i watch?"></li>
+              <div id="myDIV2" class="toggle">
+                  
+                <p>Watch anywhere, anytime, on an unlimited number of devices.<br> Sign in with your
+                     Netflix account to watch instantly on the web<br> at netflix.com from your personal
+                      computer or on any internet-<br>connected device that offers the Netflix app, 
+                      including smart<br> TVs, smartphones, tablets, streaming media players and game<br>
+                       consoles.
+                </p>
+
+                <p>
+                    You can also download your favorite shows with the iOS,<br> Android, or Windows 10 app.
+                     Use downloads to watch while<br> you're on the go and without an internet connection.
+                      Take<br> Netflix with you anywhere.
+                </p>
+              </div>
+
+             
+              <li><input type="button" onclick="myFunction3()" value="How do i cancel?"></li>
+              <div id="myDIV3" class="toggle">
+                  <p>
+                    Netflix is flexible. There are no pesky contracts and no<br> commitments. 
+                    You can easily cancel your account online in two<br> clicks. 
+                    There are no cancellation fees – start or stop your<br> account anytime.
+                  </p>
+              </div>
+
+              
+              <li><input type="button" onclick="myFunction4()" value="What can i watch on Netflix?"></li> 
+              <div id="myDIV4" class="toggle">
+                Netflix has an extensive library of feature films, documentaries,<br> TV shows,
+                 anime, award-winning Netflix originals, and more.<br> Watch as much as you want, 
+                 anytime you want.
+              </div>
+
+              
+            </ul>
+            <div><!--change-->
+            <h3>Ready to watch? Enter your email to create or restart your membership</h3>
+
+            <form>
+
+                <input type="text" id="Email-Address" name="Email Address" placeholder="Email Address">
+                <input type="submit" id="button" value="Get Started >">
+            </form>
+            </div>
+                
+        </section>
+       
+        <footer class = "field">
+            <h1>Welcome to GOUFLIX</h1>
+            <h3>Questions?Contact us.</h3>
+
+            <ul>
+              <li>FAQ</li>
+              <li>Investor Relations</li>
+              <li>Ways to watch</li>
+              <li>Corporate Information</li>
+              <li>Netflix Oringinals</li>
+            </ul>
+            <ul>
+              <li>Help Center</li>
+              <li>Jobs</li>
+              <li>Terms of Use</li>
+              <li>Contact us</li>
+            </ul>
+
+            <ul>
+              <li>Account</li>
+              <li>Redeem Gift Cards</li>
+              <li>Privacy</li>
+              <li>Speed Test</li>
+            </ul>
+
+
+            <ul>
+              <li>Media Center</li>
+              <li>Buy Gift Cards</li>
+              <li>Cookie Preferences</li>
+              <li>Legal Notices</li>
+            </ul>
+
+            <div id = "footlang" class="Language">
+
+              <select name="foot-languange-selector" id="foot-languange-selector" class="selector">
+                  <option value="English">English</option>
+                  <option value = "Greek">Greek</option>
+              </select>
+          </div>
+
+            <h5>Netflix Greece</h5>
+            
+        </footer>
+
+
+
+    </body>
+    
+
+
+</html>
