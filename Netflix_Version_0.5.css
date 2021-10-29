@@ -1,0 +1,137 @@
+/* background-image:url(background.jpg);*/
+/*must fix gap between sections*/
+ #main_section{
+     display: block;
+     background-image: url('background.jpg');
+     height:50em;
+ }
+.not_main_section{
+    display:block;
+    position:relative;
+    height:30em;
+    background-color: black;
+    margin-top: 10px;
+    
+
+
+}
+
+.section-text{
+    position:relative;
+    top:5em;
+    
+    height:50%;
+}
+
+footer{
+    background-color: grey;
+    height:30em;
+
+}
+
+
+.section-text h1,p{
+
+    color: white;
+}
+
+h1{
+    font-size: xx-large;
+}
+p{
+    font-size:x-large;
+}
+
+/*want first line from paragraphs to have a top gap from header*/
+.line1{
+    margin-top: 3em;
+
+}
+
+
+
+
+/*position text blocks*/
+
+/*main*/
+
+#main_section>#inline_block{
+    display: inline-block;
+    position:absolute;
+    top:3.5em;
+    transform:translateX(650%);
+}
+
+#logo{
+
+    width:200px;
+    height:100px;
+}
+
+select{
+    border-style: solid groove;
+    height:30px;
+
+}
+
+/*See if i can set better sign in button */
+#Sign{/*Set sign in button*/
+   
+    height:30px;
+    width : 70px;
+   
+    background-color: red;
+    border-radius: 5px;
+    border:red;
+
+       
+}
+/*Section 1*/
+/*need to fix a little bit size of video1*/
+#video1{
+    float:right;
+    margin: 5em 8em 0px 0px;
+    
+}
+#img1{
+
+    position:absolute;
+    transform:translate(93%,0%)
+}
+
+/*Section 2*/
+#img2{
+
+    float:left;
+}
+
+/*Section 3*/
+/*must position it better to bottom*/
+/*See above -> floated video to right and after positioning img to adjust*/
+
+#video3{
+    float:right;
+    margin: 5em 10em 0px 0px;
+    
+}
+#img3{
+
+    position:absolute;
+    transform:translate(93%,8%)
+}
+
+/*footer*/
+
+footer>div{
+    margin-left: 5em;
+}
+
+table{
+    margin-top:5em;
+    margin-right:15em ;
+}
+
+/*see if can fix better footer table*/
+td{
+    text-align: center;
+}
