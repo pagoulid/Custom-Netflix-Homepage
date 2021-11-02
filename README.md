@@ -21,12 +21,12 @@
 
 
 
-<img
-src=“/sample/Sample_Section_1.png”
-raw=true
-alt=“Sample Section 1.png”
-style=“margin-right: 10px;”
-/>
+		<img
+		src=“/sample/Sample_Section_1.png”
+		raw=true
+		alt=“Sample Section 1.png”
+		style=“margin-right: 10px;”
+		/>
 
 
 ![Section 1 sample ](/samples/Sample Section 1.png)
