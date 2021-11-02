@@ -26,10 +26,10 @@
 
 ![Main section sample ](https://github.com/pagoulid/Custom-Netflix-Homepage/blob/main/Main.png)
 ![Section 1 sample ](https://github.com/pagoulid/Custom-Netflix-Homepage/blob/main/Section1.png)
-![Section 2 sample ](https://github.com/pagoulid/Custom-Netflix-Homepage/blob/main/Section12.png)
-![Section 3 sample ](https://github.com/pagoulid/Custom-Netflix-Homepage/blob/main/Section13.png)
-![Section 4 sample ](https://github.com/pagoulid/Custom-Netflix-Homepage/blob/main/Section141.png)
-![Section 4 sample ](https://github.com/pagoulid/Custom-Netflix-Homepage/blob/main/Section142.png)
+![Section 2 sample ](https://github.com/pagoulid/Custom-Netflix-Homepage/blob/main/Section2.png)
+![Section 3 sample ](https://github.com/pagoulid/Custom-Netflix-Homepage/blob/main/Section3.png)
+![Section 4 sample ](https://github.com/pagoulid/Custom-Netflix-Homepage/blob/main/Section41.png)
+![Section 4 sample ](https://github.com/pagoulid/Custom-Netflix-Homepage/blob/main/Section42.png)
 ![Footer section sample ](https://github.com/pagoulid/Custom-Netflix-Homepage/blob/main/Footer.png)
 		
 # Other
