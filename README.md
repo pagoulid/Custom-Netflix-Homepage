@@ -18,11 +18,11 @@
 
 
 
-![alt text](https://github.com/pagoulid/Custom-Netflix-Homepage/blob/main/samples/Sample main section.png?raw=true)
 
 
-![Main section sample ](/samples/Sample main section.png)
-Format: ![Alt Text](url)
+
+![plot](/samples/Sample main section.png)
+
 
 ![Section 1 sample ](/samples/Sample Section 1.png)
 ![Section 2 sample ](/samples/Sample Section 2.png)
