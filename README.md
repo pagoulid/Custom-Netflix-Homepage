@@ -17,8 +17,9 @@
  * Footer Section
 
 
-
 ![Main section sample ](/samples/Sample main section.png)
+Format: ![Alt Text](url)
+
 ![Section 1 sample ](/samples/Sample Section 1.png)
 ![Section 2 sample ](/samples/Sample Section 2.png)
 ![Section 3 sample ](/samples/Sample Section 3.png)
