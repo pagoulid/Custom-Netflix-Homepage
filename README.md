@@ -1,20 +1,21 @@
 # Custom-Netflix-Homepage
-	An attempt to recreate the Homepage of Netflix 
+	##An attempt to recreate the Homepage of Netflix 
 
-	Programming Language & further Components:  HTML,CSS,Javascript
+		###Programming Language & further Components:  HTML,CSS,Javascript
 
-	The page consists of 4 Sections :
-		- Main Section
+			**The page consists of 4 Sections :
+			
+			* Main Section
 		
-		- Section 1
+			* Section 1
 		
-		- Section 2
+			* Section 2
 		
-		- Section 3
+			* Section 3
 		
-		- FAQ Section
+			* FAQ Section
 		
-		- Footer Section
+			* Footer Section
 		
 # Other
 	
