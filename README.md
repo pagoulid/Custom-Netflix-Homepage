@@ -17,6 +17,10 @@
  * Footer Section
 
 
+
+![alt text](https://github.com/pagoulid/Custom-Netflix-Homepage/blob/main/samples/Sample main section.png?raw=true)
+
+
 ![Main section sample ](/samples/Sample main section.png)
 Format: ![Alt Text](url)
 
