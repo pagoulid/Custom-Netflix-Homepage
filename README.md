@@ -21,7 +21,7 @@
 
 
 
-![plot](/samples/Sample main section.png)
+![plot](./samples/Sample main section.png)
 
 
 ![Section 1 sample ](/samples/Sample Section 1.png)
