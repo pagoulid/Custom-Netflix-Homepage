@@ -22,7 +22,7 @@
 
 
 <img
-src=“/samples/Sample Section 1.png”
+src=“/sample/Sample_Section_1.png”
 raw=true
 alt=“Sample Section 1.png”
 style=“margin-right: 10px;”
