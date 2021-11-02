@@ -15,6 +15,16 @@
  * FAQ Section
 		
  * Footer Section
+
+
+
+![Main section sample ](/samples/Sample main section.png)
+![Section 1 sample ](/samples/Sample Section 1.png)
+![Section 2 sample ](/samples/Sample Section 2.png)
+![Section 3 sample ](/samples/Sample Section 3.png)
+![Section 4 sample ](/samples/Sample Section 4_1.png)
+![Section 4 sample ](/samples/Sample Section 4_2.png)
+![Footer Section  sample ](/samples/Sample footer section 4_1.png)
 		
 # Other
 	
