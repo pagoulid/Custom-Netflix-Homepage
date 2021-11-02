@@ -25,7 +25,7 @@
 
 
 ![Main section sample ](https://github.com/pagoulid/Custom-Netflix-Homepage/blob/main/Main.png)
-![Section 1 sample ](https://github.com/pagoulid/Custom-Netflix-Homepage/blob/main/Section1.png)
+![Section 1 sample ](https://github.com/pagoulid/Custom-Netflix-Homepage/blob/main/Sample1.png)
 ![Section 2 sample ](https://github.com/pagoulid/Custom-Netflix-Homepage/blob/main/Section2.png)
 ![Section 3 sample ](https://github.com/pagoulid/Custom-Netflix-Homepage/blob/main/Section3.png)
 ![Section 4 sample ](https://github.com/pagoulid/Custom-Netflix-Homepage/blob/main/Section41.png)
