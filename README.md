@@ -21,7 +21,7 @@
 
 
 
-<img  width=“964” alt="Sample1" src=“https://github.com/pagoulid/Custom-Netflix-Homepage/tree/main/sample/Sample1.png”>
+<img  width=“964” alt="Sample1" src=“https://github.com/pagoulid/Custom-Netflix-Homepage/blob/main/sample/Sample1.png”>
 
 
 ![Section 1 sample ](/samples/Sample Section 1.png)
