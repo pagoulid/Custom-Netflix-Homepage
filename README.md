@@ -21,7 +21,7 @@
 
 
 
-<img alt="Sample1" src=“https://github.com/pagoulid/Custom-Netflix-Homepage/blob/main/Sample1.png”>
+<img alt="Sample1" src=“https://github.com/pagoulid/Custom-Netflix-Homepage/blob/main/Sample1.png 23”>
 
 
 ![Section 1 sample ](/samples/Sample Section 1.png)
