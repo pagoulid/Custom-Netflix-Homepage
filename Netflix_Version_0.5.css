@@ -51,15 +51,47 @@ p{
 
 
 
+/*Setting basic config for media section1,3*/
+/*for rensponsive purposes*/
+ #media-block-1,#media-block-3{
+    float:right;
+    position:relative;
+    width:70%;
+    height:70%;
+    
+   }
+   #video1,#video3{
+       
+      position:absolute;
+      padding-left: 10em;;
+      
+
+      
+       
+   }
+  
+   #img1,#img3{
+     
+       position:absolute;
+       padding-left: 9.7em;
+   
+       
+       
+   }
+
+
+
+
+
+
+
+
 /*position text blocks*/
 
 /*main*/
 
-#main_section>#inline_block{
-    display: inline-block;
-    position:absolute;
-    top:3.5em;
-    transform:translateX(650%);
+#main_section>#corner-buttons{
+    float:right;
 }
 
 #logo{
@@ -88,15 +120,17 @@ select{
 }
 /*Section 1*/
 /*need to fix a little bit size of video1*/
-#video1{
-    float:right;
-    margin: 5em 8em 0px 0px;
-    
-}
-#img1{
+ #img1{
+       width:70%;
+       height: 80%;
 
-    position:absolute;
-    transform:translate(93%,0%)
+
+   }
+   #video1{
+    width:70%;
+    height: 80%;
+
+   }
 }
 
 /*Section 2*/
@@ -109,16 +143,19 @@ select{
 /*must position it better to bottom*/
 /*See above -> floated video to right and after positioning img to adjust*/
 
-#video3{
-    float:right;
-    margin: 5em 10em 0px 0px;
-    
-}
 #img3{
+    height:100%;
+    width:50%;
 
-    position:absolute;
-    transform:translate(93%,8%)
 }
+    #video3{
+        height:50%;
+        width:32%;
+        margin-left: 8%;
+        margin-top: 3%;
+
+
+        }
 
 /*footer*/
 
