@@ -8,6 +8,34 @@
         <meta name="pagoulid" content="Best Alternative Netflix">
         
         <link rel="stylesheet" type="text/css" href="Netflix_Version_0.5.css" media="all">
+        <script>
+            // Hide/show content due to number of button that was clicked 
+            //On specific content visibility checks if another item is 
+            //visible to hide it
+            function Handler(num){
+
+                let field = document.querySelector('.visible-item-'+num);
+                field.classList.toggle('hidden-item-'+num);
+
+                for(let i =0;i<=4;i++){
+                   let k=i+1;
+                    if(k!=num){
+
+                       let item =  document.querySelector('.visible-item-'+k);
+                       
+                       if(!item.classList.contains('hidden-item-'+k)){
+                        item.classList.toggle('hidden-item-'+k);
+                       }
+
+                    }
+
+                }
+                
+                    
+
+                  
+            }
+        </script>
     </head>
 
     <body>
@@ -24,6 +52,26 @@
                 </select>
 
                 <button id = "Sign" type="button">Sign in</button>
+            </div>
+
+
+            <div id = "main_text">
+
+                <div id="main_par">
+                    <header>Unlimited  movies,TV shows   and   more.</header>
+                    
+                </div>
+    
+                <div id="sub_par">
+                    <h2 class="main-padding-content main-padding-content-1">Watch anywhere,cancel anytime</h2>
+                    <h3 class="main-padding-content main-padding-content-2">Ready to watch?Enter your email to create or restart your membership</h3>
+                </div>
+    
+                <form class="main-padding-content main-padding-content-form">
+    
+                    <input type="text" id="Email-Address" name="Email Address" placeholder="Email Address">
+                    <input type="submit" id="button" value="Get Started >">
+                </form>
             </div>
 
         </div>
@@ -76,7 +124,64 @@
                 
             </div>
         </div>
-        <div class = "not_main_section">Not main section</div>
+        <div id = "section4" class = "not_main_section">
+            <div class="flex-item-1"><h1>Frequently Asked Questions</h1></div>
+            <div class="flex-item-2">
+                <ul>
+                    <li><input type="button" onclick="Handler(1)" value="What is Netflix?">
+                        <div  class="item hidden-item-1 visible-item-1">
+
+                            <p>Watch Netflix on your smartphone, tablet, Smart TV, laptop, or <br>streaming 
+                                device, all for one fixed monthly fee. Plans range<br> from EUR7.99 to 
+                                EUR13.99 a month. No extra costs, no<br> contracts.</p>
+                          </div>
+                    </li>
+                    <li><input type="button" onclick="Handler(2)"  value="How much does Netflix cost?">
+                        <div  class="item hidden-item-2 visible-item-2">
+
+                            <p>Watch Netflix on your smartphone, tablet, Smart TV, laptop, or <br>streaming 
+                                device, all for one fixed monthly fee. Plans range<br> from EUR7.99 to 
+                                EUR13.99 a month. No extra costs, no<br> contracts.</p>
+                          </div>
+                    </li>
+
+                    <li><input type="button" onclick="Handler(3)"  value="Where can i watch?">
+                        <div  class="item hidden-item-3 visible-item-3">
+
+                            <p>Watch Netflix on your smartphone, tablet, Smart TV, laptop, or <br>streaming 
+                                device, all for one fixed monthly fee. Plans range<br> from EUR7.99 to 
+                                EUR13.99 a month. No extra costs, no<br> contracts.</p>
+                          </div>
+                    </li>
+
+                    <li><input type="button" onclick="Handler(4)"   value="How do i cancel?">
+                        <div  class="item hidden-item-4 visible-item-4">
+
+                            <p>Watch Netflix on your smartphone, tablet, Smart TV, laptop, or <br>streaming 
+                                device, all for one fixed monthly fee. Plans range<br> from EUR7.99 to 
+                                EUR13.99 a month. No extra costs, no<br> contracts.</p>
+                          </div>
+                    </li>
+
+                    <li><input type="button" onclick="Handler(5)"  value="What can i watch on Netflix?">
+                        <div  class="item hidden-item-5 visible-item-5">
+
+                            <p>Watch Netflix on your smartphone, tablet, Smart TV, laptop, or <br>streaming 
+                                device, all for one fixed monthly fee. Plans range<br> from EUR7.99 to 
+                                EUR13.99 a month. No extra costs, no<br> contracts.</p>
+                          </div>
+                    </li>
+                </ul>
+            </div>
+            <div class="flex-item-3">
+                
+                <form class="main-padding-content-form">
+    
+                    <input type="text" id="Email-Address" name="Email Address" placeholder="Email Address">
+                    <input type="submit" id="button" value="Get Started >">
+                </form>
+            </div>
+        </div>
         
         
         <footer>

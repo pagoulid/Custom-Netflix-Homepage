@@ -77,10 +77,54 @@ p{
  /*cross section 1,3*/
 
 /*main*/
+/*must fix further rensponsive text-alignment*/
 #main_section{
     display: block;
     background-image: url('background.jpg');
     height:50em;
+}
+
+#main_text{
+    color:white;
+    margin:15%;
+    
+}
+
+#main_par>header{
+    font-size: 50px;
+    font-weight: bolder;
+}
+
+
+
+.main-padding-content-form{
+    padding-left: 10%;
+    padding-top: 10%;
+}
+
+.main-padding-content-2{
+    padding-left: 10%;
+}
+
+.main-padding-content-1{
+    padding-left: 23%;
+}
+ form #Email-Address{
+    height:50px;/*default height 15*/
+    width:min(100%,500px);
+    border: whitesmoke;
+    font-size: medium;
+    font-weight: bold;
+}
+/*On 1070 width button gets down from form*/
+form #button{
+height:50px;/*default height 15*/
+width:160px;
+color: white;
+background-color: red;
+border: red;
+font-size: medium;
+font-weight: bold;
 }
 
 /*main*/
@@ -113,7 +157,62 @@ select{
        
 }
 /*main*/
+
+/*section4*/
+
+#section4{
+    display:flex;
+   flex-direction: column;
+   height:max-content;
+}
+.flex-item-1{
+    color:white;
+}
+
+.flex-item-2{
+    flex-grow: 5;
+    padding-left: 2%;
+}
+
+.flex-item-3{
+    flex-shrink: 8;
+    margin-left: 10%;
+}
+/*at 540 width font size must decrease*/
+.flex-item-2>ul>li>input{
+    color:white;
+    background-color: gray;
+    font-weight: bolder;
+    font-size: 45px;
+    width:100%;
+    height:50px;
+}
+
+
+
+    /*toggle buttons*/
+    /*see handler script toggle removes hidden class,adds if does not exist*/
+   .hidden-item-1,.hidden-item-2,.hidden-item-3,.hidden-item-4,.hidden-item-5{
+       
+       display:none
+       
+   }
+
+   .visible-item-1,.visible-item-2,.visible-item-3,.visible-item-4,.visible-item-5{
+    
+    color:white;
+    background-color: grey;
+
+   }
+
+   .hidden-item>p{
+    padding:0px;
+
+   }
+
+/*section4*/
 /*footer*/
+/*Below 415 width screen size change footer list to grid element*/
 footer{
     background-color: grey;
     height:30em;
@@ -206,16 +305,49 @@ footer>h5,#footlang{
     
 }
 
+@media  (max-width:1070px){
+    form #button{
+        margin-top:5%;
+        margin-left: 20%;
+       
+    }
+}
+@media (max-width:800px){
+    .flex-item-2>ul>li>input{
+
+        font-size: 150%;
+    }
+
+    form #button{
+        margin-top:5%;
+        margin-left: 30%;
+       
+    }
+}
 @media  (max-width:540px){
     /*img2 adjustment as screen decreases avoiding overflow*/
     #img2{
         width:50%;
         height:50%;
-        margin-left: 2%;
+        margin-left: 15%;
     }
+
+    .flex-item-2>ul>li>input{
+
+        font-size: 95%;
+    }
+
+    form #button{
+        margin-top:5%;
+        margin-left: 0%;
+       
+    }
+    
 }
 
 @media  (max-width:415px){
+
+   
     footer{
         height:max-content;
     }
