@@ -1,34 +1,22 @@
-/* background-image:url(background.jpg);*/
-/*must fix gap between sections*/
- #main_section{
-     display: block;
-     background-image: url('background.jpg');
-     height:50em;
- }
+
+/*All*/
+
 .not_main_section{
-    display:block;
+    display:flex;
     position:relative;
     height:30em;
     background-color: black;
     margin-top: 10px;
+    padding:5%;
     
-
-
 }
 
-.section-text{
-    position:relative;
-    top:5em;
-    
-    height:50%;
+
+    /*want first line from paragraphs to have a top gap from header*/
+.line1{
+
+    margin-top: 3em;
 }
-
-footer{
-    background-color: grey;
-    height:30em;
-
-}
-
 
 .section-text h1,p{
 
@@ -41,55 +29,61 @@ h1{
 p{
     font-size:x-large;
 }
+/*All*/
 
-/*want first line from paragraphs to have a top gap from header*/
-.line1{
-    margin-top: 3em;
+
+/*cross section 1,3*/
+
+    /*use flex grow to fill remaining space*/
+#media-block-1,#media-block-3{
+    
+    position:relative;
+    margin: 5%;
+    flex-grow: 1;
+    
+    
+   }
+
+/*SOS video size is larger than its content*/
+#video1{
+    width:80%;
+    height:100%;
+    margin-left: 5%;
 
 }
 
+#video3{
+    width:50%;
+    height:60%;
+    margin-bottom: 5%;
+    margin-left: 25%;
 
+}
 
-
-/*Setting basic config for media section1,3*/
-/*for rensponsive purposes*/
- #media-block-1,#media-block-3{
-    float:right;
-    position:relative;
-    width:70%;
-    height:70%;
-    
-   }
-   #video1,#video3{
+#img1,#img3{
        
-      position:absolute;
-      padding-left: 10em;;
-      
-
-      
-       
-   }
-  
-   #img1,#img3{
+   position:absolute;
+   width:100%;
+    height:100%;
      
-       position:absolute;
-       padding-left: 9.7em;
-   
-       
-       
-   }
+ }
+
+ .section-img{
 
 
+    width:50%;
+ }
 
-
-
-
-
-
-/*position text blocks*/
+ /*cross section 1,3*/
 
 /*main*/
+#main_section{
+    display: block;
+    background-image: url('background.jpg');
+    height:50em;
+}
 
+/*main*/
 #main_section>#corner-buttons{
     float:right;
 }
@@ -118,57 +112,147 @@ select{
 
        
 }
-/*Section 1*/
-/*need to fix a little bit size of video1*/
- #img1{
-       width:70%;
-       height: 80%;
-
-
-   }
-   #video1{
-    width:70%;
-    height: 80%;
-
-   }
-}
-
-/*Section 2*/
-#img2{
-
-    float:left;
-}
-
-/*Section 3*/
-/*must position it better to bottom*/
-/*See above -> floated video to right and after positioning img to adjust*/
-
-#img3{
-    height:100%;
-    width:50%;
-
-}
-    #video3{
-        height:50%;
-        width:32%;
-        margin-left: 8%;
-        margin-top: 3%;
-
-
-        }
-
+/*main*/
 /*footer*/
+footer{
+    background-color: grey;
+    height:30em;
+
+}
 
 footer>div{
     margin-left: 5em;
 }
 
-table{
-    margin-top:5em;
-    margin-right:15em ;
+footer ul{
+    display:inline-block;
+}
+/*cannot implement padding breaks ul's alignment wtf*/
+footer ul li{
+    list-style: none;
+   
 }
 
-/*see if can fix better footer table*/
-td{
-    text-align: center;
+/*hide unusable last elements without hiding netflix oringinals tag(first)*/
+footer ul:not(:first-child)>li:last-child{
+    visibility: hidden;
+}
+
+#footer-list{
+    
+    margin:8%;
+}
+
+footer>h5,#footlang{
+    display:inline-block;
+    margin-left:0px;
+    padding-left: 2%;
+}
+/*footer*/
+
+
+
+@media  (max-width:700px){
+    .not_main_section{
+        flex-direction: column;
+        padding-top:5%;
+    }
+
+    .not_main_section>div{
+        margin-top:2%
+    }
+
+    #img2{
+
+        width:400px;
+        height:400px;
+        margin-left: 10%;
+    }
+    .line1{
+        margin-top:5px;
+    }
+    p{
+        margin:2%;
+        font-size: medium;
+        padding-left: 10%;
+    }
+    #media-block-1,#media-block-3{
+        flex-grow: 1;
+        
+    }
+
+    #img1,#img3{
+        width:80%;
+        height:75%;
+    }
+
+    #video1{
+        width:80%;
+        height:70%;
+        margin-left: 0%;
+
+    }
+    #video3{
+        width:30%;
+        height:38%;
+        margin-left: 25%;
+        margin-top: 5%;
+        
+
+    }
+
+   
+
+    
+}
+
+@media  (max-width:540px){
+    /*img2 adjustment as screen decreases avoiding overflow*/
+    #img2{
+        width:50%;
+        height:50%;
+        margin-left: 2%;
+    }
+}
+
+@media  (max-width:415px){
+    footer{
+        height:max-content;
+    }
+    footer>h3{
+        margin:0px;
+    }
+    #footer-list{
+        display:grid;
+        grid-template-columns: max(50%,130px) max(30%,130px);
+        grid-template-rows:max(50%,150px) max(50%,150px); 
+        column-gap: 5px;
+        row-gap: 5px;
+        margin: 0px;
+        
+        
+    }
+    #footer-list>ul{
+        padding-left: 3px;
+    }
+
+    #footer-list>ul>li{
+        padding-top: 3px;
+    }
+
+   
+
+}
+
+
+
+
+@media  (max-width:315px){
+    #footer-list{
+        grid-template-columns: 100px;
+        grid-template-rows:min-content min-content min-content min-content; 
+
+
+    }
+
 }
