@@ -16,17 +16,40 @@
  * FAQ Section
 		
  * Footer Section
+## Old
+![Main section sample ](https://github.com/pagoulid/Custom-Netflix-Homepage/blob/main/Main.png)
 
-
+## Updated
 ![Main section sample ](https://github.com/pagoulid/Custom-Netflix-Homepage/blob/main/main1.png)
 ![Main section sample ](https://github.com/pagoulid/Custom-Netflix-Homepage/blob/main/main2.png)
+
+
+## Old
+![Section 1 sample ](https://github.com/pagoulid/Custom-Netflix-Homepage/blob/main/Section1.png)
+## New
 ![Section 1 sample ](https://github.com/pagoulid/Custom-Netflix-Homepage/blob/main/section1.png)
+
+## Old
+![Section 2 sample ](https://github.com/pagoulid/Custom-Netflix-Homepage/blob/main/Section2.png)
+## New
 ![Section 2 sample ](https://github.com/pagoulid/Custom-Netflix-Homepage/blob/main/section2.png)
+
+## Old
+![Section 3 sample ](https://github.com/pagoulid/Custom-Netflix-Homepage/blob/main/Section3.png)
+## New
 ![Section 3 sample ](https://github.com/pagoulid/Custom-Netflix-Homepage/blob/main/section3.png)
+
+
+
 ![Section 4 sample ](https://github.com/pagoulid/Custom-Netflix-Homepage/blob/main/section4.png)
 ![Section 4 sample ](https://github.com/pagoulid/Custom-Netflix-Homepage/blob/main/section41.png)
 ![Section 4 sample ](https://github.com/pagoulid/Custom-Netflix-Homepage/blob/main/section42.png)
-![Footer section sample ](https://github.com/pagoulid/Custom-Netflix-Homepage/blob/main/footer.png)
+
+## Old
+![Footer sample ](https://github.com/pagoulid/Custom-Netflix-Homepage/blob/main/Footer.png)
+## New
+![Footer sample ](https://github.com/pagoulid/Custom-Netflix-Homepage/blob/main/footer.png)
+
 
 # TODO
 
