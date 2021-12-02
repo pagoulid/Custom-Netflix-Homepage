@@ -30,7 +30,7 @@
 
 # TODO
 
-- [ ] Optimize page styling upon Netflix_Version_0.5.html
+- [ ] 	Better Rensponsiveness for Netflix_Version_1.html
 		
 # Other
 	
