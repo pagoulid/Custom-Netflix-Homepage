@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Netflix v.1</title>
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <meta name="description" content="Attempt to update Custom Netflix Homepage">
+        <meta name="pagoulid" content="Best Alternative Netflix">
+        
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;500&display=swap" rel="stylesheet">
+
+        <link rel="stylesheet" type="text/css" href="Netflix_Version_1.css" media="all">
+
+
+
+        <script>
+            // Hide/show content due to number of button that was clicked 
+            //On specific content visibility checks if another item is 
+            //visible to hide it
+            function Handler(num){
+
+                let field = document.querySelector('.visible-item-'+num);
+                field.classList.toggle('hidden-item-'+num);
+
+                for(let i =0;i<=4;i++){
+                   let k=i+1;
+                    if(k!=num){
+
+                       let item =  document.querySelector('.visible-item-'+k);
+                       
+                       if(!item.classList.contains('hidden-item-'+k)){
+                        item.classList.toggle('hidden-item-'+k);
+                       }
+
+                    }
+
+                }
+                
+                    
+
+                  
+            }
+        </script>
+    </head>
+   <body>
+       <section class="section main_section">
+
+        <img id="logo" src="https://assets.stickpng.com/images/580b57fcd9996e24bc43c529.png" alt="logo_img">
+        
+            <div id="corner-buttons">
+
+                <select name="languange-selector" id="languange-selector" class="selector">
+                    <option value="English">English</option>
+                    <option value = "Greek">Greek</option>
+                </select>
+
+                <button id = "Sign" type="button">Sign in</button>
+            </div>
+
+
+            <div class="block_wrapper main_block">
+
+                
+                    <header id="main-header" class="text">Unlimited  movies,TV shows   and   more.</header>
+                    
+                
+    
+                    <ul>
+                        <li class="text main_par main_par_1">Watch anywhere,cancel anytime</li>
+                        <li class="text main_par main_par_2">Ready to watch?Enter your email to create or restart your membership</li>
+                    </ul>
+                    
+                    
+               
+    
+                <form class="text main_form">
+    
+                    <input type="text" id="email" class="text" name="Email Address" placeholder="Email Address">
+                    <input type="submit" id="button"  class="text" value="Get Started >">
+                </form>
+            </div>
+        </section>
+       <section class="section not_main_section">
+
+        <header class="text">Enjoy on your TV</header>
+
+       
+        <div class="section_block_wrapper">
+
+            <div id="text1" class="grid_item_text">
+                
+                    <ul class="text section_par">
+                        <li>Watch on smart TV's,Playstation,Xbox</li>
+                        <li>Chromecast,Blu-ray players,AppleTV </li>
+                        <li>and more</li>
+                    </ul>
+               
+                
+            </div>
+    
+            <div id = "media-block-1" class="grid_item_media">
+               
+                
+    
+               
+                <img src="Section1-tv.png"  id="img1" class="tv"/>
+                <video id="video1" class="videos" src="Section1-video-tv.mp4" autoplay playsinline muted  loop></video>
+                
+            </div>
+        </div>
+        
+
+
+       
+    </section>
+       <section class="section  not_main_section">
+        <header class="text">Download your shows to watch offline</header> 
+
+        <div class="section_block_wrapper">
+
+            
+
+            <img id = "img2" class="grid_item_media" src="Section2-img.jpg">
+            <div id="text2" class="grid_item_text">
+                
+                
+                
+    
+                <ul class="text section_par">
+                    <li>Save your favorites easily  and always </li>
+                    <li>have something to watch </li>
+                    <li>and more</li>
+                </ul>
+                
+            </div>
+        </div>
+
+       
+    </section>
+       <section class="section  not_main_section">
+
+        <header class="text">Watch Everywhere</header>
+        <div class="section_block_wrapper">
+            
+            <div id="text3" class="grid_item_text">
+                
+    
+    
+                <ul class="text section_par">
+                    <li>Stream Unlimited movies and TV shows on </li>
+                    <li>your phone,tablet,laptop,and TV without </li>
+                    <li>paying more.</li>
+                </ul>
+    
+    
+               
+            </div>
+    
+            <div id = "media-block-3" class="grid_item_media">
+               
+                <img src="Section3-tv.png" id="img3"  class="tv"/>
+                <video id="video3" class = "videos" src= "Section3-video-tv.webm" autoplay playsinline muted loop></video>
+               
+                
+            </div>
+
+
+        </div>
+       
+    </section>
+    <section id = "section4" >
+        <div class="flex-item-1"><h1>Frequently Asked Questions</h1></div>
+        <div class="flex-item flex-item-2">
+            <ul>
+                <li><input type="button" onclick="Handler(1)" value="What is Netflix?">
+                    <div  class="item hidden-item-1 visible-item-1">
+
+                        <p>Netflix is a streaming service that offers a wide variety of<br> 
+                            award-winning TV shows, movies, anime, documentaries, and <br>more 
+                            on thousands of internet-connected devices.</p>
+
+                            <p>You can watch as much as you want<br>, whenever
+                                you want without a single commercial – all
+                                for one low monthly price.<br> There's always
+                                something new to discover and new TV shows<br> and 
+                                movies are added every week!</p>
+                      </div>
+                </li>
+                <li><input type="button" onclick="Handler(2)"  value="How much does Netflix cost?">
+                    <div  class="item hidden-item-2 visible-item-2">
+
+                        <p>Watch Netflix on your smartphone, tablet, Smart TV, laptop, or <br>streaming 
+                            device, all for one fixed monthly fee. Plans range<br> from EUR7.99 to 
+                            EUR13.99 a month. No extra costs, no<br> contracts.</p>
+                      </div>
+                </li>
+
+                <li><input type="button" onclick="Handler(3)"  value="Where can i watch?">
+                    <div  class="item hidden-item-3 visible-item-3">
+                        <p>Watch anywhere, anytime, on an unlimited number of devices.<br> Sign in with your
+                            Netflix account to watch instantly on the web<br> at netflix.com from your personal
+                             computer or on any internet-<br>connected device that offers the Netflix app, 
+                             including smart<br> TVs, smartphones, tablets, streaming media players and game<br>
+                              consoles.
+                       </p>
+       
+                       <p>
+                           You can also download your favorite shows with the iOS,<br> Android, or Windows 10 app.
+                            Use downloads to watch while<br> you're on the go and without an internet connection.
+                             Take<br> Netflix with you anywhere.
+                       </p>
+                      </div>
+                </li>
+
+                <li><input type="button" onclick="Handler(4)"   value="How do i cancel?">
+                    <div  class="item hidden-item-4 visible-item-4">
+
+                        <p>
+                            Netflix is flexible. There are no pesky contracts and no<br> commitments. 
+                            You can easily cancel your account online in two<br> clicks. 
+                            There are no cancellation fees – start or stop your<br> account anytime.
+                          </p>
+                      </div>
+                </li>
+
+                <li><input type="button" onclick="Handler(5)"  value="What can i watch on Netflix?">
+                    <div  class="item hidden-item-5 visible-item-5">
+
+                        <p>Netflix has an extensive library of feature films, documentaries,<br> TV shows,
+                            anime, award-winning Netflix originals, and more.<br> Watch as much as you want, 
+                            anytime you want.</p>
+                      </div>
+                </li>
+            </ul>
+        </div>
+        <div class="flex-item flex-item-3">
+            
+            <form class="section_form">
+    
+                <input type="text"  class="text section_mail" name="Email Address" placeholder="Email Address">
+                <input type="submit"   class="text section_text" value="Get Started >">
+            </form>
+        </div>
+    </section>
+       <footer>
+    
+        <h2>ALTERNATIVE NETFLIX</h2>
+        <h3>Questions?Contact us.</h3>
+        <div id="footer-list">
+            
+            
+
+        <ul>
+          <li>FAQ</li>
+          <li>Investor Relations</li>
+          <li>Ways to watch</li>
+          <li>Corporate Information</li>
+          <li>Netflix Oringinals</li>
+        </ul>
+        <ul>
+          <li>Help Center</li>
+          <li>Jobs</li>
+          <li>Terms of Use</li>
+          <li>Contact us</li>
+          <li>hidden</li>
+        </ul>
+
+        <ul>
+          <li>Account</li>
+          <li>Redeem Gift Cards</li>
+          <li>Privacy</li>
+          <li>Speed Test</li>
+          <li>hidden</li>
+        </ul>
+
+
+        <ul>
+          <li>Media Center</li>
+          <li>Buy Gift Cards</li>
+          <li>Cookie Preferences</li>
+          <li>Legal Notices</li>
+          <li>hidden</li>
+        </ul>
+
+       
+        </div>
+
+       
+
+          <h5>Netflix Greece</h5>
+
+          <div id = "footlang" class="Language">
+
+            <select name="foot-languange-selector" id="foot-languange-selector" class="selector">
+                <option value="English">English</option>
+                <option value = "Greek">Greek</option>
+            </select>
+        </div>
+        
+    
+    </footer>
+       
+   </body> 
+</html>
