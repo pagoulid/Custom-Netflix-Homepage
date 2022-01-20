@@ -1,5 +1,6 @@
 # Custom-Netflix-Homepage
  ## An attempt to recreate the Homepage of Netflix
+  ### Note : **Updated Netflix Version 1**
   ### Programming Language & further Components:  HTML,CSS,Javascript
 
 **The page consists of 4 Sections :**
@@ -17,17 +18,34 @@
  * Footer Section
 
 
-![Main section sample ](https://github.com/pagoulid/Custom-Netflix-Homepage/blob/main/Main.png)
-![Section 1 sample ](https://github.com/pagoulid/Custom-Netflix-Homepage/blob/main/Sample1.png)
-![Section 2 sample ](https://github.com/pagoulid/Custom-Netflix-Homepage/blob/main/Section2.png)
-![Section 3 sample ](https://github.com/pagoulid/Custom-Netflix-Homepage/blob/main/Section3.png)
-![Section 4 sample ](https://github.com/pagoulid/Custom-Netflix-Homepage/blob/main/Section41.png)
-![Section 4 sample ](https://github.com/pagoulid/Custom-Netflix-Homepage/blob/main/Section42.png)
-![Footer section sample ](https://github.com/pagoulid/Custom-Netflix-Homepage/blob/main/Footer.png)
+
+![Main section sample ](https://github.com/pagoulid/Custom-Netflix-Homepage/blob/main/main1.png)
+![Main section sample ](https://github.com/pagoulid/Custom-Netflix-Homepage/blob/main/main2.png)
+
+
+
+
+![Section 1 sample ](https://github.com/pagoulid/Custom-Netflix-Homepage/blob/main/section1.png)
+
+
+![Section 2 sample ](https://github.com/pagoulid/Custom-Netflix-Homepage/blob/main/section2.png)
+
+
+![Section 3 sample ](https://github.com/pagoulid/Custom-Netflix-Homepage/blob/main/section3.png)
+
+
+
+![Section 4 sample ](https://github.com/pagoulid/Custom-Netflix-Homepage/blob/main/section4.png)
+![Section 4 sample ](https://github.com/pagoulid/Custom-Netflix-Homepage/blob/main/section41.png)
+![Section 4 sample ](https://github.com/pagoulid/Custom-Netflix-Homepage/blob/main/section42.png)
+
+
+![Footer sample ](https://github.com/pagoulid/Custom-Netflix-Homepage/blob/main/footer.png)
+
 
 # TODO
 
-- [ ] Optimize page styling upon Netflix_Version_0.5.html
+- [ ] 	Better Rensponsiveness for Netflix_Version_1.html
 		
 # Other
 	
