@@ -1,0 +1,117 @@
+
+
+    .main-section{
+        background-image: url('background.jpg');
+        height:100vh;
+       /* box-sizing: content-box;
+        height:60rem;*/
+    }
+
+    .not-main-section{
+        background-color: black;
+        height:100vh;
+    }
+
+    footer{
+        background-color: grey;
+        height:60vh;
+    }
+
+    ul{
+        list-style: none;
+    }
+    li,header{
+        color: white;
+        font-size: 0.7rem;
+    }
+    
+    /*main*/
+    header{
+        margin-bottom: 20rem;
+    }
+
+    .main-par-1{
+        color: white;
+        font-size: 1.3rem;
+    }
+
+    .main-par-2{
+        color: white;
+        font-size: 1rem;
+    }
+
+        /*main form*/
+        .mail-form{
+            max-width:768px;
+        }
+
+        .form-group{
+            flex-direction: column;
+            flex-wrap: wrap;
+        }
+        #button{
+            min-width:350px;
+        }
+
+   
+
+    /*section*/
+    
+    .text-block{
+        justify-content: center;
+    }
+
+        .block-row-1{
+            height:60vh;
+        }
+        /*animation*/
+        
+        .tv{
+            top:-5%;
+            left:55%;
+            
+            z-index:2;
+        }
+        /*needs fixing from small to medium size*/
+        #video3{
+            
+            top:20%;
+            left:66%;
+        
+            
+        }
+
+        /*section2*/
+        .sub-img-2{
+            top:3rem
+        }
+
+    /*
+    .container-fluid{
+        height:40vh;
+    }*/
+
+    /*Small devices*/
+    @media (min-width: 576px) { 
+        li,header,p{
+            font-size: 2.5rem;
+        }
+     }
+
+    /*Medium devices (tablets, 768px and up)*/
+    @media (min-width: 768px) { 
+
+         /*main form*/
+         .mail-form{
+            padding-left: 25vw;
+        }
+
+       
+     }
+    
+    /* Large devices (desktops, 992px and up)*/
+    @media (min-width: 992px) { }
+    
+    /*Extra large devices (large desktops, 1200px and up)*/
+    @media (min-width: 1200px) {  }
+

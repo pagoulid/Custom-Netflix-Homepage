@@ -45,7 +45,7 @@ select{
    
     background-color:  black;
     margin-top: 0.5rem;
-    height:45rem;
+    height:55rem;
     padding-top:3%;
     
 
@@ -63,6 +63,11 @@ select{
 
 /*sect5ion start*/
 
+
+#footer-list>ul>li,.main_par,.selector,#Sign{
+    font-size:1rem;
+}
+
 /*main section*/
 
 #logo{
@@ -75,13 +80,22 @@ select{
     float:right;
 }
 
-#Sign,option{
+#Sign{
     background-color: red;
     color: white;
     font-weight:normal;
-    font-size: 2rem;
+    font-size: 1rem;
 }
 
+
+option{
+    background-color: transparent;
+    color: black;
+    font-weight:normal;
+    font-size: 1rem;
+
+
+}
 .main_block{
     
     margin: 10% 0% 0% 10%;
@@ -231,7 +245,7 @@ form #button{
 
 .flex-item-2{
     
-    padding-left:18% ;
+    padding-left:8% ;
    
 }
 
@@ -425,8 +439,11 @@ footer>h5,#footlang{
     #main-header{
         padding-left: 10%;
     }
-    #footer-list>ul>li,.main_par,.selector,#Sign{
-        font-size:2rem;
+   
+    .flex-item-2{
+    
+        padding-left:18% ;
+       
     }
 
    
@@ -439,6 +456,11 @@ footer>h5,#footlang{
         margin-left: 38%;
         transform: translateX(-5%);
     }
+    /*.flex-item-2{
+    
+        padding-left:28% ;
+       
+    }*/
   
 }
 @media (max-width:1290px){
@@ -510,7 +532,20 @@ footer>h5,#footlang{
 
     }
 }
+@media (min-width:1251px) {
+    #main-header{
+        transform: translateX(2%);
+    }
+
+}
+@media (min-width:850px) and (max-width:1250px){
+    #main-header{
+        transform: translateX(-5%);
+    }
+}
 @media (max-width:850px){
+
+   
     .section_block_wrapper{
         padding:0;
         
@@ -528,7 +563,9 @@ footer>h5,#footlang{
 
         top:-2%;
     }
-  
+  .flex-item-2{
+      padding-left: 0%;
+  }
 
    
 }
